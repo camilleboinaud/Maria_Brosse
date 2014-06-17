@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<infos>
+  <year><![CDATA[2014]]></year>
+  <gamecategories>
+    <gamecategory><![CDATA[Plate-Forme]]></gamecategory>
+    <gamecategory><![CDATA[Puzzle]]></gamecategory>
+    <gamecategory><![CDATA[Logique]]></gamecategory>
+    <gamecategory><![CDATA[Mouvement]]></gamecategory>
+  </gamecategories>
+  <shortdescription><![CDATA[Maria a toujours voulu devenir  plombière. Ses amis se sont donc réunis avec elle pour réaliser son rêve. Aide les à atteindre la fin de tous les niveaux le plus rapidement possible !]]></shortdescription>
+  <public><![CDATA[MV]]></public>
+  <gamestate><![CDATA[Valider pour le CD]]></gamestate>
+  <age><![CDATA[7 à 77 ans]]></age>
+  <title><![CDATA[Maria Brosse & Co.]]></title>
+  <authors>
+    <author><![CDATA[Boinaud Camille]]></author>
+    <author><![CDATA[Lagouge Bénédicte]]></author>
+    <author><![CDATA[Multari Maxime]]></author>
+  </authors>
+  <notes>
+	<note><![CDATA[Musique sous licence CC : http://www.newgrounds.com/audio/listen/452133; http://www.newgrounds.com/audio/listen/558341; http://www.newgrounds.com/audio/listen/565776; http://www.newgrounds.com/audio/listen/569125; http://www.newgrounds.com/audio/listen/571053  ]]></note>
+	<note><![CDATA[Images sous licences CC : http://www.gameartguppy.com/shop/monkey-game-character-sprites/ ;  http://agentwow1.deviantart.com/art/Monkey-D-Luffy-Maplestory-Sprites-323021143 ; http://th01.deviantart.net/fs70/200H/f/2012/186/7/2/small_owen_sprite_sheet_by_agentwow1-d5633fu.png ; http://fc06.deviantart.net/fs70/f/2011/005/0/7/sheepy_sprites_by_bubbachrissy-d1q3hlh.png ; http://fc09.deviantart.net/fs70/i/2012/362/0/c/super_paper_mario__princess_peach_part_2_by_princess_peach_64-d5pffv0.png ;]]></note>
+    <note />
+  </notes>
+  <gameplay><![CDATA[Pour se déplacer, utiliser les flêches du clavier. Pour obtenir de l'aide F1. Pour changer les couleurs, la touche F3. Pour revenir au menu, touche Echap. Pour valider dans les menus, appuyer sur la touche Entrée]]></gameplay>
+  <gamerules><![CDATA[Il faut déplacer le personnage vers un tuyau pour se téléporter vers un autre tuyau de la même couleur. Pour terminer le niveau, il suffit d'atteindre le deuxième tuyau avec une flèche.]]></gamerules>
+</infos>
+

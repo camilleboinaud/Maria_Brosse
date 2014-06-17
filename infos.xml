@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<infos>
+  <year><![CDATA[2014]]></year>
+  <gamecategories>
+    <gamecategory><![CDATA[Plate-Forme]]></gamecategory>
+    <gamecategory><![CDATA[Puzzle]]></gamecategory>
+    <gamecategory><![CDATA[Logique]]></gamecategory>
+    <gamecategory><![CDATA[Mouvement]]></gamecategory>
+  </gamecategories>
+  <shortdescription><![CDATA[Maria a toujours voulu devenir  plombière. Ses amis se sont donc réunis avec elle pour réaliser son rêve. Aide les à atteindre la fin de tous les niveaux le plus rapidement possible !]]></shortdescription>
+  <public><![CDATA[MV]]></public>
+  <gamestate><![CDATA[Valider pour le CD]]></gamestate>
+  <age><![CDATA[7 à 77 ans]]></age>
+  <title><![CDATA[Maria Brosse & Co.]]></title>
+  <authors>
+    <author><![CDATA[Boinaud Camille]]></author>
+    <author><![CDATA[Lagouge Bénédicte]]></author>
+    <author><![CDATA[Multari Maxime]]></author>
+  </authors>
+  <notes>
+    <note><![CDATA[N'est pas encore adapté aux petites résolutions d'écran.]]></note>
+    <note />
+  </notes>
+  <gameplay><![CDATA[Pour se déplacer, utiliser les flêches du clavier. Pour obtenir de l'aide F1. Pour changer les couleurs, la touche F3. Pour revenir au menu, touche Echap. Pour valider dans les menus, appuyer sur la touche Entrée]]></gameplay>
+  <gamerules><![CDATA[Il faut déplacer le personnage vers un tuyau pour se téléporter vers un autre tuyau de la même couleur. Pour terminer le niveau, il suffit d'atteindre le deuxième tuyau avec une flèche.]]></gamerules>
+</infos>
+
