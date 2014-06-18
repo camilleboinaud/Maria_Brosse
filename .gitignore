@@ -29,5 +29,4 @@ log.txt
 *score.txt
 *.dll
 
-#On oublie le jre
-jre/
+#On oublie le
