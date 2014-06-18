@@ -15,7 +15,7 @@ import main.MainClass;
 
 public abstract class Personnage{
 	protected int centerX, centerY;
-	protected static int MOVESPEED = 3;
+	protected static final int MOVESPEED = (MainClass.speed == 1)?((MainClass.ratioWidth <= 0.5)?1:((MainClass.ratioWidth <=0.85)?2:2)):((MainClass.speed == 2)?((MainClass.ratioWidth <= 0.5)?3:((MainClass.ratioWidth <=0.85)?4:5)):((MainClass.ratioWidth <= 0.5)?5:((MainClass.ratioWidth <=0.85)?6:8)));
 	protected static final int FALLSPEED = 1;
 	protected static final int ENTERSPEED=1;
 	public  static int persoHeight;
@@ -57,19 +57,6 @@ public abstract class Personnage{
 		this.current = map.getGrille().findElement(getCenterX(), getCenterY());
 		this.levelcomplete = false;
 		initImages();
-		switch(MainClass.speed){
-		case 1 :
-			this.MOVESPEED = (MainClass.ratioWidth <= 0.5)?1:((MainClass.ratioWidth <=0.85)?2:2);
-			break;
-		case 2 :
-			this.MOVESPEED = (MainClass.ratioWidth <= 0.5)?2:((MainClass.ratioWidth <=0.85)?4:5);
-			break;
-		case 3 : 
-			this.MOVESPEED = (MainClass.ratioWidth <= 0.5)?3:((MainClass.ratioWidth <=0.85)?6:8);
-			break;
-		default :
-			this.MOVESPEED = (MainClass.ratioWidth <= 0.5)?2:((MainClass.ratioWidth <=0.85)?4:5);
-		}
 		this.changeTuyau(current);
 		
 	}
@@ -230,7 +217,7 @@ public abstract class Personnage{
 
 	private boolean collision(int x, int y){
 		Element e = map.getGrille().findElement(x, y);
-		if(x>=MainClass.screenWidth+Personnage.persoWidth/2 || x<=-Personnage.persoWidth) return true;
+		if(x>MainClass.screenWidth+Personnage.persoWidth/2 || x<=-Personnage.persoWidth) return true;
 		
 		if(e!=null && e.getBounds().intersects(getBounds()))
 			return true;
@@ -249,7 +236,7 @@ public abstract class Personnage{
 			if(collision(getCenterX()+Personnage.persoWidth+1, getCenterY()+2) 
 					&& collision(getCenterX()+Personnage.persoWidth+1, getCenterY()+ Personnage.persoHeight/2+2)){
 				
-				if(getCenterX()+Personnage.persoWidth+1<MainClass.screenWidth && !isEnteringRight){
+				if(getCenterX()+Personnage.persoWidth/2<MainClass.screenWidth && !isEnteringRight){
 					
 					Element e1 = map.getGrille().findElement(getCenterX()+Personnage.persoWidth+1, getCenterY()+2);
 					Element e2 = map.getGrille().findElement(getCenterX()+Personnage.persoWidth+1, getCenterY()+Personnage.persoHeight/2+2);

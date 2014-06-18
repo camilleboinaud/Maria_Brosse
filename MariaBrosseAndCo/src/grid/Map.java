@@ -141,7 +141,7 @@ public class Map extends JPanel implements KeyListener, Runnable{
 			maria.update();
 			repaint();
 			try {
-				Thread.sleep(2);
+				Thread.sleep((MainClass.ratioWidth <= 0.5)?1:2);
 			} catch (InterruptedException e) {
 				Thread.currentThread().interrupt();
 			}
