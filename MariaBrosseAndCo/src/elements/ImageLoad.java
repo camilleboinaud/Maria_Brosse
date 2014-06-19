@@ -72,6 +72,7 @@ public class ImageLoad {
 			imageLoad.put("../ressources/images/bleu/tuyau_rouge_droite.png", ImageIO.read(new File("../ressources/images/bleu/tuyau_rouge_droite.png")));
 			imageLoad.put("../ressources/images/bleu/tuyau_marron_droite.png", ImageIO.read(new File("../ressources/images/bleu/tuyau_marron_droite.png")));
 			imageLoad.put("../ressources/images/bleu/tuyau_gris_droite.png", ImageIO.read(new File("../ressources/images/bleu/tuyau_gris_droite.png")));
+		
 		} else if (MainClass.affichage == Affichage.ROSE){
 			imageLoad.put("../ressources/images/rose/tuyau_bleu_clair_haut.png", ImageIO.read(new File("../ressources/images/rose/tuyau_bleu_clair_haut.png")));
 			imageLoad.put("../ressources/images/rose/tuyau_bleu_fonce_haut.png", ImageIO.read(new File("../ressources/images/rose/tuyau_bleu_fonce_haut.png")));

@@ -45,7 +45,7 @@ public class Map extends JPanel implements KeyListener, Runnable{
 	private Graphics2D g2d;
 	private SIVOXDevint voix;
 	public boolean quit;
-
+	private boolean first = true;
 
 	/**
 	 * Le constructeur de la classe .
@@ -106,7 +106,6 @@ public class Map extends JPanel implements KeyListener, Runnable{
 			break;
 		}
 		new Thread(this).start();
-		music(niveauInit++);
 		maria.initImages();
 	}
 	
@@ -138,6 +137,18 @@ public class Map extends JPanel implements KeyListener, Runnable{
 	@Override
 	public void run() {
 		while (quit) {
+			if(first){
+				if(niveauInit == 12){
+					try{
+						voix.playText("Attention, le sol peu parfois nous réserver des surprises !");
+						Thread.sleep(3000);
+					} catch(Exception e){
+						e.printStackTrace();
+					}
+				}
+				music(niveauInit++);
+				first = false;
+			}
 			maria.update();
 			repaint();
 			try {
