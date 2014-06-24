@@ -70,6 +70,9 @@ public class TuyauBas extends elements.Element 	{
 		case GRIS:
 			this.path_image = repo+"tuyau_gris_bas.png";
 			break;
+		case SORTIE:
+			this.path_image = repo+"tuyau_sortie_bas.png";
+			break;
 		default:
 			break;
 

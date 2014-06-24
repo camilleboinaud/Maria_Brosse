@@ -50,7 +50,9 @@ public class ImageLoad {
 			imageLoad.put("../ressources/images/bleu/tuyau_rouge_bas.png", ImageIO.read(new File("../ressources/images/bleu/tuyau_rouge_bas.png")));
 			imageLoad.put("../ressources/images/bleu/tuyau_marron_bas.png", ImageIO.read(new File("../ressources/images/bleu/tuyau_marron_bas.png")));
 			imageLoad.put("../ressources/images/bleu/tuyau_gris_bas.png", ImageIO.read(new File("../ressources/images/bleu/tuyau_gris_bas.png")));
-		
+			imageLoad.put("../ressources/images/bleu/tuyau_sortie_bas.png", ImageIO.read(new File("../ressources/images/bleu/tuyau_sortie_bas.png")));
+
+			
 			imageLoad.put("../ressources/images/bleu/tuyau_bleu_clair_gauche.png", ImageIO.read(new File("../ressources/images/bleu/tuyau_bleu_clair_gauche.png")));
 			imageLoad.put("../ressources/images/bleu/tuyau_bleu_fonce_gauche.png", ImageIO.read(new File("../ressources/images/bleu/tuyau_bleu_fonce_gauche.png")));
 			imageLoad.put("../ressources/images/bleu/tuyau_entree_gauche.png", ImageIO.read(new File("../ressources/images/bleu/tuyau_entree_gauche.png")));
@@ -94,7 +96,9 @@ public class ImageLoad {
 			imageLoad.put("../ressources/images/rose/tuyau_rouge_bas.png", ImageIO.read(new File("../ressources/images/rose/tuyau_rouge_bas.png")));
 			imageLoad.put("../ressources/images/rose/tuyau_marron_bas.png", ImageIO.read(new File("../ressources/images/rose/tuyau_marron_bas.png")));
 			imageLoad.put("../ressources/images/rose/tuyau_gris_bas.png", ImageIO.read(new File("../ressources/images/rose/tuyau_gris_bas.png")));
-		
+			imageLoad.put("../ressources/images/rose/tuyau_sortie_bas.png", ImageIO.read(new File("../ressources/images/rose/tuyau_sortie_bas.png")));
+
+			
 			imageLoad.put("../ressources/images/rose/tuyau_bleu_clair_gauche.png", ImageIO.read(new File("../ressources/images/rose/tuyau_bleu_clair_gauche.png")));
 			imageLoad.put("../ressources/images/rose/tuyau_bleu_fonce_gauche.png", ImageIO.read(new File("../ressources/images/rose/tuyau_bleu_fonce_gauche.png")));
 			imageLoad.put("../ressources/images/rose/tuyau_entree_gauche.png", ImageIO.read(new File("../ressources/images/rose/tuyau_entree_gauche.png")));
@@ -138,6 +142,7 @@ public class ImageLoad {
 			imageLoad.put("../ressources/images/simple/tuyau_rouge_bas.png", ImageIO.read(new File("../ressources/images/simple/tuyau_rouge_bas.png")));
 			imageLoad.put("../ressources/images/simple/tuyau_marron_bas.png", ImageIO.read(new File("../ressources/images/simple/tuyau_marron_bas.png")));
 			imageLoad.put("../ressources/images/simple/tuyau_gris_bas.png", ImageIO.read(new File("../ressources/images/simple/tuyau_gris_bas.png")));
+			imageLoad.put("../ressources/images/simple/tuyau_sortie_bas.png", ImageIO.read(new File("../ressources/images/simple/tuyau_sortie_bas.png")));
 			
 			imageLoad.put("../ressources/images/simple/tuyau_bleu_clair_gauche.png", ImageIO.read(new File("../ressources/images/simple/tuyau_bleu_clair_gauche.png")));
 			imageLoad.put("../ressources/images/simple/tuyau_bleu_fonce_gauche.png", ImageIO.read(new File("../ressources/images/simple/tuyau_bleu_fonce_gauche.png")));

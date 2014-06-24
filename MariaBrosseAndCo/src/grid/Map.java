@@ -146,6 +146,14 @@ public class Map extends JPanel implements KeyListener, Runnable{
 						e.printStackTrace();
 					}
 				}
+				if(niveauInit == 13){
+					try{
+						voix.playText("Saperlipopette, le dessinateur a oublié de dessiné le sol ! Saura tu trouver ton chemin ?");
+						Thread.sleep(4000);
+					} catch(Exception e){
+						e.printStackTrace();
+					}
+				}
 				music(niveauInit++);
 				first = false;
 			}
