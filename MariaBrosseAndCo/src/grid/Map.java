@@ -138,7 +138,7 @@ public class Map extends JPanel implements KeyListener, Runnable{
 	public void run() {
 		while (quit) {
 			if(first){
-				if(niveauInit == 12){
+				if(niveauInit == 13){
 					try{
 						voix.playText("Attention, le sol peu parfois nous réserver des surprises !");
 						Thread.sleep(3000);
@@ -146,10 +146,10 @@ public class Map extends JPanel implements KeyListener, Runnable{
 						e.printStackTrace();
 					}
 				}
-				if(niveauInit == 13){
+				if(niveauInit == 14){
 					try{
 						voix.playText("Saperlipopette, le dessinateur a oublié de dessiné le sol ! Saura tu trouver ton chemin ?");
-						Thread.sleep(4000);
+						Thread.sleep(4500);
 					} catch(Exception e){
 						e.printStackTrace();
 					}

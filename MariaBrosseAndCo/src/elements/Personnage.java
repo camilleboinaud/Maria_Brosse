@@ -249,7 +249,7 @@ public abstract class Personnage{
 							entreTuyau(e1);
 						} 
 						else if(e1.getTypeElt()==TypeElt.NEUTRE && e2.getTypeElt()==TypeElt.NEUTRE){
-							Element e3 = map.getGrille().findElement(getCenterX()+10, getCenterY()+2);
+							Element e3 = map.getGrille().findElement(getCenterX()+1, getCenterY()+2);
 							if(e3!=null){
 								if(e3.getTypeElt()==TypeElt.GAUCHE)
 									map.cantMove = true;
