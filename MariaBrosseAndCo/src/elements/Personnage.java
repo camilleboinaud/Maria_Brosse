@@ -302,8 +302,8 @@ public abstract class Personnage{
 				
 				if(getCenterX()>=0 && !isEnteringLeft){
 
-					Element e1 = map.getGrille().findElement(getCenterX()-3*Personnage.persoWidth, getCenterY()+ 2);
-					Element e2 = map.getGrille().findElement(getCenterX()-3*Personnage.persoWidth, getCenterY()+(Personnage.persoHeight/2)+2);
+					Element e1 = map.getGrille().findElement(getCenterX()-3*Personnage.persoWidth+1, getCenterY()+ 2);
+					Element e2 = map.getGrille().findElement(getCenterX()-3*Personnage.persoWidth+1, getCenterY()+(Personnage.persoHeight/2)+2);
 					
 					if (e1!=null && e2!=null){
 						
